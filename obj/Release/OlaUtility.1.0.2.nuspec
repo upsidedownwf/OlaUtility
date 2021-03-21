@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OlaUtility</id>
+    <version>1.0.2</version>
+    <authors>Jon-Ajumobi Olamide D.</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a simple IOC Container i built to use depedency injection in small console projects personally. I would use standard containers for standard and web projects.</description>
+    <releaseNotes>First Release, this only registers and resolves transient instances.
+I intend to work more on it in my spare time.
+This is not to be used for production, just test purposes for now.
+This container cannot be used for web based dependency injection.</releaseNotes>
+    <tags>IOCContainer Perosnal Hasher</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\JON\source\repos\OlamideIOCContainer\bin\Release\netstandard2.0\OlamideIOCContainer.dll" target="lib\netstandard2.0\OlamideIOCContainer.dll" />
+    <file src="C:\Users\JON\source\repos\OlamideIOCContainer\bin\Release\netstandard2.0\OlamideIOCContainer.xml" target="lib\netstandard2.0\OlamideIOCContainer.xml" />
+  </files>
+</package>

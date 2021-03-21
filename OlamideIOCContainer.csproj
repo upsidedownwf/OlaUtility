@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Jon-Ajumobi Olamide D.</Authors>
+    <Description>This is a simple IOC Container i built to use depedency injection in small console projects personally. I would use standard containers for standard and web projects.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <Version>1.0.5</Version>
+    <PackageReleaseNotes>First Release, this only registers and resolves transient instances.
+I intend to work more on it in my spare time.
+This is not to be used for production, just test purposes for now.
+This container cannot be used for web based dependency injection.</PackageReleaseNotes>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>IOCCert.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>true</DelaySign>
+    <PackageTags>IOCContainer Perosnal Hasher</PackageTags>
+    <PackageId>OlaUtility</PackageId>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OlamideIOCContainer</name>
+    </assembly>
+    <members>
+        <member name="T:OlamideIOCContainer.HashValues">
+            <summary>
+            Class to hold values after hashing
+            </summary>
+        </member>
+        <member name="P:OlamideIOCContainer.HashValues.HashedString">
+            <summary>
+            Hashed String
+            </summary>
+            <value>Returns the hashed string</value>
+        </member>
+        <member name="P:OlamideIOCContainer.HashValues.Salt">
+            <summary>
+            Salt used for hashing
+            </summary>
+            <value>Returns the salt used for hashing</value>
+        </member>
+        <member name="T:OlamideIOCContainer.HashPassword">
+            <summary>
+            Class that handles hashing and verfying a hashed string
+            </summary>
+        </member>
+        <member name="M:OlamideIOCContainer.HashPassword.GetHash(System.String)">
+            <summary>
+            This method hashes your <paramref name="password"/> string
+            </summary>
+            <param name="password">string that is to be hashed</param>
+            <returns>the hashed string and the salt used to hash it</returns>
+        </member>
+        <member name="M:OlamideIOCContainer.HashPassword.Verify(System.String,System.String,System.String)">
+            <summary>
+            This method tries to match your password and a hashed password 
+            </summary>
+            <param name="password">this is the unhashed password</param>
+            <param name="salt">this is the salt used to hash the password</param>
+            <param name="hashedPassword">this is the hashed password you want to compare with</param>
+            <returns>return true if the two password matches with the hashed password else return false </returns>
+            <exception cref="T:System.ArgumentException">Thrown when one or all the parameters are either null or empty</exception>
+        </member>
+    </members>
+</doc>

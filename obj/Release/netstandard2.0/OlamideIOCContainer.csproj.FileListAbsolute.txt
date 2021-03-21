@@ -1,0 +1,11 @@
+C:\Users\JON\source\repos\OlamideIOCContainer\bin\Release\netstandard2.0\OlamideIOCContainer.deps.json
+C:\Users\JON\source\repos\OlamideIOCContainer\bin\Release\netstandard2.0\OlamideIOCContainer.dll
+C:\Users\JON\source\repos\OlamideIOCContainer\bin\Release\netstandard2.0\OlamideIOCContainer.pdb
+C:\Users\JON\source\repos\OlamideIOCContainer\obj\Release\netstandard2.0\OlamideIOCContainer.AssemblyInfoInputs.cache
+C:\Users\JON\source\repos\OlamideIOCContainer\obj\Release\netstandard2.0\OlamideIOCContainer.AssemblyInfo.cs
+C:\Users\JON\source\repos\OlamideIOCContainer\obj\Release\netstandard2.0\OlamideIOCContainer.csproj.CoreCompileInputs.cache
+C:\Users\JON\source\repos\OlamideIOCContainer\obj\Release\netstandard2.0\OlamideIOCContainer.dll
+C:\Users\JON\source\repos\OlamideIOCContainer\obj\Release\netstandard2.0\OlamideIOCContainer.pdb
+C:\Users\JON\source\repos\OlamideIOCContainer\obj\Release\netstandard2.0\OlamideIOCContainer.csprojAssemblyReference.cache
+C:\Users\JON\source\repos\OlamideIOCContainer\bin\Release\netstandard2.0\OlamideIOCContainer.xml
+C:\Users\JON\source\repos\OlamideIOCContainer\obj\Release\netstandard2.0\OlamideIOCContainer.xml
